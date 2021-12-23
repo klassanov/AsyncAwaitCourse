@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.FromSyncToAync", "01.FromSyncToAync\01.FromSyncToAync.csproj", "{809EC4D1-6740-4E1D-A516-8BFD136F1CDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{809EC4D1-6740-4E1D-A516-8BFD136F1CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809EC4D1-6740-4E1D-A516-8BFD136F1CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809EC4D1-6740-4E1D-A516-8BFD136F1CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809EC4D1-6740-4E1D-A516-8BFD136F1CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A98C40A5-F1A0-4778-A8DD-354F77455432}
+	EndGlobalSection
+EndGlobal
