@@ -1,10 +1,14 @@
 ﻿using System;
+using System.IO;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace _04.TaskMethods
 {
     class Program
     {
+        /*Here I still do everything without async/await, so I am forced to use Wait(). This is different from await.*/
+
         static void Main(string[] args)
         {
             //WaitForTask();
@@ -12,7 +16,8 @@ namespace _04.TaskMethods
             //TaskExceptionsAndStatus();
             //MultipleTasksAtTheSameTime();
             //AtLeastOneTaskToFinish();
-            CompletedTaskAndFromResult();
+            //CompletedTaskAndFromResult();
+            DownloadFileContentAndSaveItToFile();
         }
 
         static void WaitForTask()
@@ -172,6 +177,40 @@ namespace _04.TaskMethods
                 };
 
                 task.Wait();
+            }
+        }
+
+        static void DownloadFileContentAndSaveItToFile()
+        {
+            using (var client = new HttpClient())
+            {
+                //Define it like a Task<string> and then call continue with on it
+                //If you use chaining it will be Task
+                Task<string> googleTask = client.GetStringAsync("https://google.com");
+                googleTask.ContinueWith(prev =>
+                     {
+                         File.WriteAllTextAsync("google.txt", prev.Result)
+                             .Wait();
+                     });
+
+
+                var prevodiTask = client.GetStringAsync("http://prevodilegalizacia.bg");
+                prevodiTask.ContinueWith(prev =>
+                    {
+                        File.WriteAllTextAsync("prevodi.txt", prev.Result)
+                            .Wait();
+                    });
+
+                var tasks = new Task<string>[] { googleTask, prevodiTask };
+
+                Task.WhenAll(tasks)
+                    .ContinueWith(prev =>
+                    {
+                        var content = $"{prev.Result[0]}{prev.Result[1]}";
+                        File.WriteAllTextAsync("merge.txt", content)
+                            .Wait();
+                    })
+                    .Wait();
             }
         }
     }
