@@ -3,7 +3,7 @@ using System.IO;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace _04.TaskMethods
+namespace TaskMethods
 {
     class Program
     {

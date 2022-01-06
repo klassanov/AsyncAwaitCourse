@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.FromSyncToAync", "01.Fro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.BurgerPreparation", "02.BurgerPreparation\02.BurgerPreparation.csproj", "{A9AEF3BD-3BDC-48ED-A49A-69E8ADF8789F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Multithreading", "03.Multithreading\03.Multithreading.csproj", "{5895987D-4D43-4C4F-BC7B-69E4F5E51567}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Multithreading", "03.Multithreading\03.Multithreading.csproj", "{5895987D-4D43-4C4F-BC7B-69E4F5E51567}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.TaskMethods", "04.TaskMethods\04.TaskMethods.csproj", "{E090DCC4-88E0-4EA1-93CA-3188C7A0BAF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.TaskMethods", "04.TaskMethods\04.TaskMethods.csproj", "{E090DCC4-88E0-4EA1-93CA-3188C7A0BAF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.AsyncAwait", "05.AsyncAwait\05.AsyncAwait.csproj", "{6F8B65E8-2FC7-46AE-9E64-BBE6D0A754FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E090DCC4-88E0-4EA1-93CA-3188C7A0BAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E090DCC4-88E0-4EA1-93CA-3188C7A0BAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E090DCC4-88E0-4EA1-93CA-3188C7A0BAF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8B65E8-2FC7-46AE-9E64-BBE6D0A754FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8B65E8-2FC7-46AE-9E64-BBE6D0A754FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8B65E8-2FC7-46AE-9E64-BBE6D0A754FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8B65E8-2FC7-46AE-9E64-BBE6D0A754FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
