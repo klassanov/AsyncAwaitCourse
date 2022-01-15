@@ -13,13 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.TaskMethods", "04.TaskMe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.AsyncAwait", "05.AsyncAwait\05.AsyncAwait.csproj", "{6F8B65E8-2FC7-46AE-9E64-BBE6D0A754FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Performance", "06.Performance\06.Performance.csproj", "{EA149E22-7B37-496F-B32C-E1DD53609DDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.Performance", "06.Performance\06.Performance.csproj", "{EA149E22-7B37-496F-B32C-E1DD53609DDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Gotchas", "07.Gotchas\07.Gotchas.csproj", "{49CA10D6-7345-4CC0-9BBA-6C29A69CC6B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.Gotchas", "07.Gotchas\07.Gotchas.csproj", "{49CA10D6-7345-4CC0-9BBA-6C29A69CC6B0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Deadlock", "08.Deadlock\08.Deadlock.csproj", "{B7845295-9BC6-482C-84D3-66DD4D668F8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Cancellation", "09.Cancellation\09.Cancellation.csproj", "{E4CD2AA4-A67B-4B3A-BB57-25DE8BCC8932}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.Cancellation", "09.Cancellation\09.Cancellation.csproj", "{E4CD2AA4-A67B-4B3A-BB57-25DE8BCC8932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.TasksBehindTheScenes", "10.TasksBehindTheScenes\10.TasksBehindTheScenes.csproj", "{D50185BF-28E5-464B-B3AE-586E1162C8B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{E4CD2AA4-A67B-4B3A-BB57-25DE8BCC8932}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4CD2AA4-A67B-4B3A-BB57-25DE8BCC8932}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4CD2AA4-A67B-4B3A-BB57-25DE8BCC8932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50185BF-28E5-464B-B3AE-586E1162C8B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50185BF-28E5-464B-B3AE-586E1162C8B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50185BF-28E5-464B-B3AE-586E1162C8B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50185BF-28E5-464B-B3AE-586E1162C8B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
