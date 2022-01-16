@@ -21,9 +21,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Deadlock", "08.Deadlock\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.Cancellation", "09.Cancellation\09.Cancellation.csproj", "{E4CD2AA4-A67B-4B3A-BB57-25DE8BCC8932}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.TasksBehindTheScenes", "10.TasksBehindTheScenes\10.TasksBehindTheScenes.csproj", "{D50185BF-28E5-464B-B3AE-586E1162C8B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.TasksBehindTheScenes", "10.TasksBehindTheScenes\10.TasksBehindTheScenes.csproj", "{D50185BF-28E5-464B-B3AE-586E1162C8B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.CustomAwait", "CustomAwait\11.CustomAwait.csproj", "{7D62C9E1-DFFD-4E78-A16C-747BF17F555F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.CustomAwait", "CustomAwait\11.CustomAwait.csproj", "{7D62C9E1-DFFD-4E78-A16C-747BF17F555F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.ChildTasks", "12.ChildTasks\12.ChildTasks.csproj", "{E425CC0F-D4AE-494F-A54E-0C455029795E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{7D62C9E1-DFFD-4E78-A16C-747BF17F555F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D62C9E1-DFFD-4E78-A16C-747BF17F555F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D62C9E1-DFFD-4E78-A16C-747BF17F555F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E425CC0F-D4AE-494F-A54E-0C455029795E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E425CC0F-D4AE-494F-A54E-0C455029795E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E425CC0F-D4AE-494F-A54E-0C455029795E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E425CC0F-D4AE-494F-A54E-0C455029795E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

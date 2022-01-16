@@ -8,6 +8,8 @@ namespace CustomAwait
 {
     public static class Awaiters
     {
+        //Awaiter pattern - syntactic sugar
+
         //Everything that has a method named GetAwaiter can be awaited.
         //So, we define these methods and then we await
         public static TaskAwaiter<string> GetAwaiter(this Uri uri)
